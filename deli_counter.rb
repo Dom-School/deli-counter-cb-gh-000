@@ -15,3 +15,5 @@ def line(katz_deli)
     end
   return result
 end
+
+line(katz_deli)

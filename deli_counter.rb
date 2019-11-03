@@ -14,7 +14,7 @@ def line(katz_deli)
       result << " #{index}. #{name}"
     end
   end
-  return result
+  puts result
 end
 
 puts "#{line(katz_deli)}"

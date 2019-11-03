@@ -17,4 +17,6 @@ def line(katz_deli)
   end
 end
 
-puts "#{line(katz_deli)}"
+def now_serving(katz_deli)
+  puts "Currently serving #{katz_deli.shift}."
+end

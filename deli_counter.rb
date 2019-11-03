@@ -17,4 +17,4 @@ def line(katz_deli)
   return result
 end
 
-puts "#{line(katz_deli)}""
+puts "#{line(katz_deli)}"

@@ -13,8 +13,8 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, index|
       result << " #{index}. #{name}"
     end
+    puts result
   end
-  puts result
 end
 
 puts "#{line(katz_deli)}"

@@ -7,8 +7,11 @@ end
 
 def line(katz_deli)
   result = "The line is currently:"
-  katz_deli.each_with_index do |name, index|
-    result << " #{index}. name"
-  end
+  if katz_deli == []
+    return "The line is currently empty."
+  else
+    katz_deli.each_with_index do |name, index|
+      result << " #{index}. #{name}"
+    end
   return result
 end
